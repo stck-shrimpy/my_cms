@@ -1,0 +1,66 @@
+body {
+  font-family: 'M PLUS Rounded 1c' !important;
+  /* min-height: 100vh;  */
+  font-size: 15px !important;
+}
+
+.form {
+  background-color: #1a2a36;
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: 0.3rem;
+  opacity: 0.9;
+  
+}
+.navbar-brand  {
+  padding-left: 1rem;
+}
+.navbar {
+  background-color: #222831;
+}
+.sidebar {
+  min-height: 100vh;
+  max-width: 14% !important;
+  padding-top: 1rem;
+  background-color: #222831;
+}
+
+.nav-item.side {
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.post-form {
+  margin-top: 2rem;
+}
+
+.form-group.pic {
+  margin-top: 1rem;
+}
+
+.fa-plus-circle {
+  color: #c02739;
+}
+
+@media only screen and (max-width: 767px) {
+  
+  #weather-widget {
+    margin-bottom: 3rem !important;
+    padding-top: 0 !important;
+    
+  }
+
+  .weatherwidget-io {
+    width: 14rem !important;
+  }
+  #card-box {
+    margin-bottom: 3rem !important;
+    height: 9rem;
+    
+  }
+  #welcome-title {
+    font-size: 2.5rem;
+  }
+  #welcome-content {
+    font-size: 1rem;
+  }
+}
